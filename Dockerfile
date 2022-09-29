@@ -1,6 +1,6 @@
 FROM quay.io/centos/centos:stream9
 
-RUN microdnf install fio \
- && microdnf clean all
+RUN dnf install fio \
+ && dnf clean all
 
 CMD tail -f /dev/null
