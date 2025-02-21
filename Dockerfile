@@ -9,4 +9,4 @@ WORKDIR /home/pegauser
 
 USER pegauser
 
-CMD ["/bin/bash"]
+CMD tail -f /dev/null
